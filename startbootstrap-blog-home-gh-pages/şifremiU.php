@@ -41,14 +41,14 @@
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com'; 
         $mail->SMTPAuth = true;
-        $mail->Username = 'eekinci871@gmail.com';
-        $mail->Password = 'nfkg cllb npao jzdh';
+        $mail->Username = '@gmail.com';
+        $mail->Password = '';
         $mail->SMTPSecure = 'tls'; 
         $mail->Port = 587; 
         $mail->CharSet  ="UTF-8";
         $mail->SMTPDebug = 0; 
 
-        $mail->setFrom("eekinci871@gmail.com", "eekinci871@gmail.com");
+        $mail->setFrom("@gmail.com", "@gmail.com");
         $mail->addAddress($kemail, $kadi);
     
         $mail->Subject = 'Şifremi Unuttum';
